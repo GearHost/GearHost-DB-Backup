@@ -48,7 +48,7 @@ namespace GearHost.Database.Backup
 
                 if (!showHelp)
                 {
-                    if (string.IsNullOrEmpty(apiKey)) throw new Exception("-apKey option is missing");
+                    if (string.IsNullOrEmpty(apiKey)) throw new Exception("-apiKey option is missing");
                     if (string.IsNullOrEmpty(dbName)) throw new Exception("-db option is missing");
                 }
             }
