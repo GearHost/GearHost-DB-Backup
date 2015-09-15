@@ -115,7 +115,7 @@ namespace GearHost.Database.Backup
                 return;
             }
 
-            if (ExecBackup())
+            if (!ExecBackup())
             {
                 Console.WriteLine("Aborting...");
             }
