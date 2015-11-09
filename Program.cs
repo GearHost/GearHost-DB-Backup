@@ -65,7 +65,7 @@ namespace GearHost.Database.Backup
         private static void ShowHelp()
         {
             Console.WriteLine("usage example:");
-            Console.WriteLine(@"ghbackup.exe -apiKey=123abc -dbName=products -path=C:\Backups");
+            Console.WriteLine(@"ghbackup.exe -apiKey=123abc -db=products -path=C:\Backups");
             Console.WriteLine("apiKey and dbName are required, path is optional. Default location is Downloads directory under the app folder.");
         }
 
