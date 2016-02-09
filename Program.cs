@@ -71,7 +71,7 @@ namespace GearHost.Database.Backup
 
         private static bool ExecBackup()
         {
-            using (var webClient = new WebClient())
+            using (var webClient = new GearHostWebClient())
             {
                 webClient.Headers.Add("Authorization", string.Format("bearer {0}", apiKey));
                 DatabasesDTO dto = null;
